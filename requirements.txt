@@ -1,13 +1,4 @@
-# follow these steps to create a working environment for the program
-# conda create -n stable-diffusion python=3.10.6
-# conda install -c "nvidia/label/cuda-11.7.1" cuda-toolkit
-# conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-# pip install -r C:\code\repositories\text-to-image\requirements.txt   
-
-# for testing cuda and driver versions
-# nvcc --version
-# nvidia-smi
-# python -c "import torch; print(torch.cuda.is_available())"
+# read readme.md for more instructions before installing requirements.txt
 
 customtkinter==4.6.1
 darkdetect==0.7.1
